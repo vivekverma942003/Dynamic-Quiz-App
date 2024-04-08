@@ -1,70 +1,47 @@
-# Getting Started with Create React App
+Dynamic Quiz App
+This is a dynamic quiz application built using React.js. Users can take quizzes on various topics, and the questions are loaded dynamically from a data source.
+You can choose any topic own your own choice and option is provided to you 
+Features
+Dynamic Loading: Questions are loaded dynamically from a data source, allowing for flexibility and easy addition of new quizzes.
+Multiple Topics: Users can select from a variety of topics to take quizzes on, such as Geography, Literature, Chemistry, Biology, Art, Astronomy, etc.
+Difficulty Levels: Quizzes come with different difficulty levels (Easy, Medium, Hard) to cater to users with varying levels of expertise.
+Interactive Interface: The app provides an interactive user interface where users can select options for each question and navigate through the quiz.
+Score Tracking: Users can track their scores as they progress through the quiz and view their final score upon completion.
+Responsive Design: The application is designed to be responsive, ensuring a consistent user experience across different devices and screen sizes.
+Installation
+To run the application locally, follow these steps:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Clone the repository:
 
-## Available Scripts
+bash
+Copy code
+git clone <repository_url>
+Navigate to the project directory:
 
-In the project directory, you can run:
+bash
+Copy code
+cd dynamic-quiz-app
+Install dependencies:
 
-### `npm start`
+Copy code
+npm install
+Start the development server:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+sql
+Copy code
+npm start
+Open your browser and visit http://localhost:3000 to view the application.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Usage
+Upon opening the application, users are presented with a selection of topics to choose from.
+After selecting a topic, users can choose the difficulty level for the quiz.
+Users then proceed to take the quiz, answering each question by selecting one of the provided options.
+After completing the quiz, users can view their final score and review their answers.
+Contributing
+Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Fork the repository.
+Create a new branch (git checkout -b feature/your-feature-name).
+Commit your changes (git commit -am 'Add some feature').
+Push to the branch (git push origin feature/your-feature-name).
+Create a new Pull Request.
